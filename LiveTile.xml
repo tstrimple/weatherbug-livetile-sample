@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<tile>
+	<visual version="2">
+		<binding template="TileSquare150x150Image" fallback="TileSquareImage">
+			<image id="1" alt="Square Tile" src="http://weatherbug.azurewebsites.net/TileSquare.png"/>
+		</binding>
+		<binding template="TileWide310x150Image" fallback="TileWideImage">
+			<image id="1" alt="Wide Tile" src="http://weatherbug.azurewebsites.net/TileWide.png"/>
+		</binding>
+	</visual>
+</tile>
